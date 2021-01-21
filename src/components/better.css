@@ -1,0 +1,45 @@
+.App{
+    width: 50%;
+    margin: auto;
+}
+
+.container {
+    display: block;
+    background: linear-gradient(to bottom, #4e05fa,#e0d4fa);
+}
+
+.result {
+    height: 60px;
+    background:linear-gradient(to right, #03fcc2,#e1faf4);
+    width: 100%;
+}
+
+.result p{
+    font-size: 40px;
+    margin: 5px;
+    font-family: sans-serif;
+    padding-top: 15px;
+}
+
+button{
+    width: 25%;
+    height: 70px;
+    font-size: 30px;
+    border-radius: 7px;
+    transition-duration: 0.4s;
+    font-family: sans-serif;
+}
+
+button:hover{
+    background-color: cadetblue;
+}
+
+#equal{
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    font-family: sans-serif;
+}
+
