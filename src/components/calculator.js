@@ -56,8 +56,7 @@ class calculator extends Component{
             <div className="calculator-ui">
                 <BetterUI 
                     data={this.state}
-                    handleChange={this.handleChange}
-                    // submitChange={this.submitChange}    
+                    handleChange={this.handleChange}  
                 />
             </div>
         );
